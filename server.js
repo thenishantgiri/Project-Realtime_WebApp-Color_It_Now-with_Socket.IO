@@ -9,6 +9,10 @@ const io = socketio(server);
 
 io.on("connection", (socket) => {
   console.log("socket id: ", socket.id);
+
+  socket.on("colorit", (data) => {
+    io.emit("colorit", data);
+  });
 });
 
 app.use("/", express.static(__dirname + "/public"));
