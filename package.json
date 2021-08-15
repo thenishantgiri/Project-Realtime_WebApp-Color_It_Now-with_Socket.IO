@@ -1,0 +1,24 @@
+{
+  "name": "project-realtime_webapp-color_it_now-with_socket.io",
+  "version": "1.0.0",
+  "description": "Realtime Multiplayer Color The Boxes!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenishantgiri/Project-Realtime_WebApp-Color_It_Now-with_Socket.IO.git"
+  },
+  "author": "Nishant Kumar Giri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thenishantgiri/Project-Realtime_WebApp-Color_It_Now-with_Socket.IO/issues"
+  },
+  "homepage": "https://github.com/thenishantgiri/Project-Realtime_WebApp-Color_It_Now-with_Socket.IO#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  }
+}
